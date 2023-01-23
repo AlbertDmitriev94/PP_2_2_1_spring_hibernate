@@ -37,6 +37,10 @@ public class User {
       this.email = email;
       this.car = car;
     }
+
+   public User() {
+         }
+
    public Car getCar() {
       return car;
    }
